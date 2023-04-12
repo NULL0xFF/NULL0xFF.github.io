@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://NULL0xFF.github.io/</id>
+    <title>My Site Blog</title>
+    <updated>2023-04-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://NULL0xFF.github.io/"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://NULL0xFF.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello, world!]]></title>
+        <id>https://NULL0xFF.github.io/hello-world</id>
+        <link href="https://NULL0xFF.github.io/hello-world"/>
+        <updated>2023-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my first Blog post written in Markdown, helped by Docusaurus]]></summary>
+        <content type="html"><![CDATA[<p>This is my first Blog post written in Markdown, helped by <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a></p>]]></content>
+        <author>
+            <name>지명하 (Ji Myoung Ha)</name>
+            <uri>https://github.com/NULL0xFF</uri>
+        </author>
+        <category label="blog" term="blog"/>
+        <category label="hello" term="hello"/>
+        <category label="world" term="world"/>
+    </entry>
+</feed>

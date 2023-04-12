@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>My Site Blog</title>
+        <link>https://NULL0xFF.github.io/</link>
+        <description>My Site Blog</description>
+        <lastBuildDate>Wed, 12 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Hello, world!]]></title>
+            <link>https://NULL0xFF.github.io/hello-world</link>
+            <guid>https://NULL0xFF.github.io/hello-world</guid>
+            <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first Blog post written in Markdown, helped by Docusaurus]]></description>
+            <content:encoded><![CDATA[<p>This is my first Blog post written in Markdown, helped by <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a></p>]]></content:encoded>
+            <category>blog</category>
+            <category>hello</category>
+            <category>world</category>
+        </item>
+    </channel>
+</rss>
