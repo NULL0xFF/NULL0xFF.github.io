@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'NULL0xFF의 개발 블로그',
+  tagline: 'Docusaurus는 대단해!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://NULL0xFF.github.io',
+  url: 'https://null0xff.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -28,8 +28,13 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
+    localeConfigs: {
+      ko: {
+        htmlLang: 'ko-KR',
+      },
+    },
   },
 
   presets: [
@@ -37,8 +42,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
-        /*
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -46,9 +49,8 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        */
         blog: {
-          routeBasePath: '/', // Serve the blog at the site's root
+          routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -66,25 +68,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'NULL0xFF의 개발 블로그',
         logo: {
-          alt: 'My Site Logo',
+          alt: '사이트 로고',
           src: 'img/logo.svg',
         },
         items: [
-          /*
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'documentSideBar',
             position: 'left',
-            label: 'Tutorial',
+            label: '문서',
           },
-          */
-          {to: '/', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/NULL0xFF',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,49 +91,30 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          /*
           {
-            title: 'Docs',
+            title: '사이트맵',
             items: [
               {
-                label: 'Tutorial',
+                label: '블로그',
+                to: '/',
+              },
+              {
+                label: '문서',
                 to: '/docs/intro',
               },
             ],
           },
-          */
           {
-            title: 'Community',
+            title: '기타',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/NULL0xFF',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NULL0xFF.`,
       },
       prism: {
         theme: lightCodeTheme,
