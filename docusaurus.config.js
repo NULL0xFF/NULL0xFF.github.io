@@ -46,14 +46,14 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/NULL0xFF/NULL0xFF.github.io/tree/main/",
+          editUrl: "https://github.com/NULL0xFF/NULL0xFF.github.io/edit/blog/",
         },
         blog: {
           routeBasePath: "/",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/NULL0xFF/NULL0xFF.github.io/tree/main/",
+          editUrl: "https://github.com/NULL0xFF/NULL0xFF.github.io/edit/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
