@@ -1,0 +1,8 @@
+{
+    "label": "우분투 (Ubuntu)",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "우분투에 대한 정보 등을 제공합니다."
+    }
+}
