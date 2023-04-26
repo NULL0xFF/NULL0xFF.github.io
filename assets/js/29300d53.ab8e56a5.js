@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknull0xff_github_io=self.webpackChunknull0xff_github_io||[]).push([[847],{4689:a=>{a.exports=JSON.parse('{"label":"argos","permalink":"/tags/argos","allTagsPath":"/tags","count":1}')}}]);
