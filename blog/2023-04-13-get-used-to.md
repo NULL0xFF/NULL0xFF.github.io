@@ -17,5 +17,5 @@ tags: [blog, argos, plan]
 
 ## 한 일들
 
-1. [리눅스와 친해지기](/docs/linux-as-korean/what-is-linux) 문서 항목 작성
+1. [리눅스와 친해지기](/docs/linux/what-is-linux) 문서 항목 작성
 2. 문서 구조 설정 ([Commit](https://github.com/NULL0xFF/NULL0xFF.github.io/commit/0389cab462c4c695061b3351ec7f2680d4f37434))
